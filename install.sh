@@ -34,7 +34,7 @@ fi
 [[ "$OMZSH" ]] && ./mac-setup/omzsh.sh
 
 echo "Installing vim configurations";
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/nrjais/vimrc/master/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ravinderj/vimrc/master/install.sh)"
 
 #Install brew packages and casks
 ./mac-setup/install-packages.sh
